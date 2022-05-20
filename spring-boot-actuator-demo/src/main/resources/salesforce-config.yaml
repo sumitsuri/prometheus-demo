@@ -1,0 +1,36 @@
+salesforce:
+  url: https://cashfreepayments--dev.my.salesforce.com
+  access:
+    grantType: password
+    secret: secret
+  campaignIdMap:
+    '[Web]': CID/04-22/0008
+    '[signup]': CID/04-22/0009
+    '[Payout Page]': CID/04-22/0010
+  productsInterestedInMap:
+    '[payment-gateway]': "Payment Gateway"
+    '[Payment gateway for website/app]': "Payment Gateway"
+    '[paymentlinks]': "Payment Links"
+    '[Payment Links (Share link and collect payment from customer)]': "Payment Links"
+    '[paymentforms]': "Payment Forms"
+    '[Bank Account/UPI detail verification]': "Payment Forms"
+    '[easysplit]': "Easy Split"
+    '[subscrption]': "Subscriptions"
+    '[Subscription Payments (E-mandate and cards)]': "Subscriptions"
+    '[bulk-payments]': "Payouts"
+    '[Bulk Outward Payment]': "Payouts"
+    '[instant-refund]': "Cashgram"
+    '[global-payouts]': "Global Payouts"
+    '[Bank Account Verification]': "bank-upi-verification"
+    '[PAN Verification]': "PAN-verification"
+    '[aadhaar-verification]': "Aadhaar Verification"
+    '[banking-as-a-service]': "Accounts"
+    '[Accounts [Banking-as-a-service]]': "Accounts"
+    '[softpos]': "Soft POS"
+    '[others]': "Others"
+    '[Others]': "Others"
+    '[refund]': "End Customer"
+    '[Refund/ borrow money]': "End Customer"
+    '[tokenvault]': "Tokenvault"
+    '[just-explore]': "Exploring"
+    '[Just exploring]': "Exploring"

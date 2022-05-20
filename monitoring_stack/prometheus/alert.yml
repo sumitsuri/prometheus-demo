@@ -1,0 +1,15 @@
+groups:
+  - name: DemoAlerts
+    rules:
+      - alert: InstanceDown 
+        expr: up{job="services"} < 1 
+        for: 1m 
+  - name: SrThresholdAlerts
+    rules:
+      - alert: SrThresholdBreach 
+        expr: success_rate{job="reactive-spring-boot-app"} > 40 
+        for: 1m 
+      - alert: SuccessRateLessThanThreshold 
+        expr: success_rate{job="reactive-spring-boot-app"} < success_rate_threshold{job="reactive-spring-boot-app"}
+        for: 1m 
+
